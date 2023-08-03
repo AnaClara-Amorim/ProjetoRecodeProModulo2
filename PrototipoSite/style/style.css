@@ -19,8 +19,7 @@
 body {
   width: 100%;
   height: 100hv;
-  background-color: var(--cor2) !important;
- 
+  background-color: var(--cor2) !important; 
 }
 
 main {
@@ -51,8 +50,6 @@ span {
     flex-wrap: wrap;
     gap: 5px;
 } */
-
-/* ----- Paises -----*/
 
 .paises {
   display: flex;
@@ -122,8 +119,6 @@ footer {
   border-radius: 10px;
 }
 
-/* ---------------------------------------- */
-
  .background-image {
   background-image: url(../imagens/world.png);
   background-size: cover;
@@ -166,13 +161,31 @@ footer {
 
 .texto-titulo{
   text-align: center;
-  font-size: 40px; /* AJUSTAR DPS PRA MIDIAS */
+  font-size: 40px;
 }
 
 .texto-paragrafo{
   text-align: justify;
-  text-indent: 20px; /* AJUSTAR DPS PRA MIDIAS */
+  text-indent: 20px;
   font-size: 20px;
 }
 
+/* Media para tablets */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .texto-titulo {
+    font-size: 28px; 
+  }
+  .texto-paragrafo {
+    font-size: 14px;
+  }
+}
 
+/* Media para celulares */
+@media screen and (max-width: 768px) {
+  .texto-titulo {
+    font-size: 20px;
+  }
+  .texto-paragrafo {
+    font-size: 15px;
+  }
+}
