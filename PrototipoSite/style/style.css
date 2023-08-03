@@ -188,4 +188,8 @@ footer {
   .texto-paragrafo {
     font-size: 15px;
   }
+  .background-image {
+    background-size: contain; /* Permitindo que a imagem de fundo se ajuste e não seja cortada na tela menor. */
+    background-size: 250%; /* Valor conforme necessário para aumentar a imagem */
+  }
 }
