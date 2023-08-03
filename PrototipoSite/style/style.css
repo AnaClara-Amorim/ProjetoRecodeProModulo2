@@ -178,6 +178,9 @@ footer {
   .texto-paragrafo {
     font-size: 14px;
   }
+  .card{
+    width: 16rem !important;
+  }
 }
 
 /* Media para celulares */
@@ -191,5 +194,8 @@ footer {
   .background-image {
     background-size: contain; /* Permitindo que a imagem de fundo se ajuste e não seja cortada na tela menor. */
     background-size: 250%; /* Valor conforme necessário para aumentar a imagem */
+  }
+  .card{
+    width: 14rem !important;
   }
 }
